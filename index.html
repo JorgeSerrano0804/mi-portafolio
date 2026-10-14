@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de un estudiante de Ingeniería Industrial.">
+  <title>Mi portafolio | Ingeniería Industrial</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#inicio">PORTAFOLIO<span>.</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú"
+      aria-expanded="false" aria-controls="nav">☰</button>
+    <nav id="nav" class="nav">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#educacion">Educación</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero reveal">
+      <p class="eyebrow">HOLA, BIENVENIDO A MI PORTAFOLIO</p>
+      <h1>Hola, soy <span>[Tu nombre]</span>.</h1>
+      <h2>Estudiante de Ingeniería Industrial</h2>
+      <p class="intro">
+        Aquí comparto mi trayectoria, mis conocimientos,
+        mis proyectos y mis objetivos profesionales.
+        <!-- Personaliza este texto con tu propia presentación. -->
+      </p>
+      <div class="actions">
+        <a class="button primary" href="#proyectos">Ver mis proyectos ↘</a>
+        <a class="button secondary" href="#contacto">Contactarme ↗</a>
+      </div>
+      <p class="scroll-note">EXPLORA MI PERFIL ↓</p>
+    </section>
+
+    <section id="sobre-mi" class="section reveal">
+      <p class="eyebrow">01 / PERFIL</p>
+      <h2>Sobre mí<span>.</span></h2>
+      <p class="section-text">
+        [Escribe aquí quién eres, qué te interesa de la Ingeniería
+        Industrial, cuáles son tus fortalezas y qué objetivos tienes.]
+      </p>
+      <div class="tags">
+        <span>Ingeniería Industrial</span>
+        <span>[Interés profesional]</span>
+        <span>[Fortaleza]</span>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section reveal">
+      <p class="eyebrow">02 / TRAYECTORIA</p>
+      <h2>Experiencia<span>.</span></h2>
+      <article class="timeline-item">
+        <p class="muted">[Fecha de inicio – Fecha de fin]</p>
+        <h3>[Puesto o experiencia]</h3>
+        <p class="muted">[Empresa u organización]</p>
+        <p>[Describe tus funciones, responsabilidades y logros reales.]</p>
+      </article>
+      <article class="timeline-item">
+        <p class="muted">[Fecha o periodo]</p>
+        <h3>[Proyecto académico o experiencia adicional]</h3>
+        <p>[Explica tu contribución y los resultados obtenidos.]</p>
+      </article>
+    </section>
+
+    <section id="educacion" class="section reveal">
+      <p class="eyebrow">03 / FORMACIÓN</p>
+      <h2>Educación<span>.</span></h2>
+      <article class="timeline-item">
+        <h3>Ingeniería Industrial</h3>
+        <p>[Nombre de la universidad]</p>
+        <p class="muted">[Periodo de estudios]</p>
+        <p>[Cursos, formación complementaria o logros académicos.]</p>
+      </article>
+    </section>
+
+    <section id="habilidades" class="section reveal">
+      <p class="eyebrow">04 / CONOCIMIENTOS</p>
+      <h2>Habilidades<span>.</span></h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Herramientas</h3>
+          <p>[Excel, Power BI u otras herramientas que domines.]</p>
+        </article>
+        <article class="card">
+          <h3>Habilidades técnicas</h3>
+          <p>[Análisis de datos, mejora de procesos, etc.]</p>
+        </article>
+        <article class="card">
+          <h3>Habilidades personales</h3>
+          <p>[Comunicación, organización, trabajo en equipo, etc.]</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section reveal">
+      <p class="eyebrow">05 / TRABAJO</p>
+      <h2>Proyectos seleccionados<span>.</span></h2>
+      <div class="cards">
+        <article class="card project">
+          <p class="muted">PROYECTO 01</p>
+          <h3>[Nombre del proyecto]</h3>
+          <p>[Problema abordado, solución y resultado.]</p>
+          <a href="[URL del proyecto]" target="_blank"
+             rel="noopener noreferrer">Ver proyecto ↗</a>
+        </article>
+        <article class="card project">
+          <p class="muted">PROYECTO 02</p>
+          <h3>[Nombre del proyecto]</h3>
+          <p>[Objetivo, herramientas utilizadas y aporte personal.]</p>
+          <a href="[URL del proyecto]" target="_blank"
+             rel="noopener noreferrer">Ver proyecto ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact reveal">
+      <p class="eyebrow">06 / CONECTEMOS</p>
+      <h2>¿Hablamos?<span>.</span></h2>
+      <p>Estoy abierto a conectar con profesionales y conocer nuevas oportunidades.</p>
+      <a class="button primary"
+         href="https://www.linkedin.com/in/serrano-jorge"
+         target="_blank" rel="noopener noreferrer">
+        Visitar mi LinkedIn ↗
+      </a>
+      <p class="muted">Correo: [Añade aquí tu correo profesional]</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#inicio">PORTAFOLIO<span>.</span></a>
+    <p>© <span id="year"></span> · Diseñado por [Tu nombre]</p>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer>
+</body>
+</html>
