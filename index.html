@@ -1,601 +1,100 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#f6f8f7">
+  <meta name="theme-color" content="#ffffff">
   <meta name="description" content="Portafolio profesional de Jorge Serrano Hilario: electrónica, automatización industrial, instrumentación y soporte técnico comercial.">
   <title>Jorge Serrano Hilario | Portafolio profesional</title>
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
-
 <body>
-  <header class="site-header">
-    <div class="container nav-container">
-      <a class="brand" href="#inicio" aria-label="Ir al inicio">
-        <span class="brand-mark">JS</span>
-        <span class="brand-text">JORGE SERRANO<small>PORTAFOLIO PROFESIONAL</small></span>
-      </a>
-
-      <nav class="main-nav" aria-label="Navegación principal">
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#experiencia">Experiencia</a>
-        <a href="#educacion">Educación</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#proyectos">Proyectos</a>
-        <a class="nav-contact" href="#contacto">Contacto ↗</a>
-      </nav>
+<header class="site-header">
+  <div class="container nav-container">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark">JS</span>
+      <span class="brand-text">JORGE SERRANO HILARIO<small>Electrónica y Automatización Industrial</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#inicio" class="active">Inicio</a><a href="#sobre-mi">Sobre mí</a><a href="#experiencia">Experiencia</a><a href="#educacion">Educación</a><a href="#habilidades">Habilidades</a><a href="#proyectos">Proyectos</a><a href="#contacto" class="nav-contact">Contacto</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section id="inicio" class="hero">
+    <div class="hero-dots" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <p class="eyebrow">ELECTRÓNICA · AUTOMATIZACIÓN · INSTRUMENTACIÓN</p>
+        <h1>Jorge Serrano<br><span>Hilario<em>.</em></span></h1>
+        <h2>Electrónica y Automatización Industrial</h2>
+        <p class="hero-description">Profesional técnico con experiencia en instrumentación industrial, soporte técnico comercial y gestión de información para los sectores industrial y minero. Actualmente estudio Ingeniería Industrial para complementar mi formación técnica con una visión integral de los procesos y negocios.</p>
+        <div class="hero-buttons"><a class="button button-primary" href="#experiencia">Ver mi experiencia <span>→</span></a><a class="button button-outline" href="#contacto">Contáctame <span>✉</span></a></div>
+        <div class="hero-highlights">
+          <div><span class="highlight-icon">▦</span><div><strong>Instrumentación</strong><small>Medición industrial</small></div></div>
+          <div><span class="highlight-icon">⚙</span><div><strong>Automatización</strong><small>Soluciones técnicas</small></div></div>
+          <div><span class="highlight-icon">▥</span><div><strong>Ingeniería</strong><small>Mejora de procesos</small></div></div>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="photo-backdrop" aria-hidden="true"></div>
+        <figure class="profile-card">
+          <img class="profile-photo" src="MIFOTO.jpg" alt="Fotografía personal de Jorge Serrano Hilario">
+        </figure>
+        <aside class="quick-facts" aria-label="Perfil profesional">
+          <div class="fact"><span class="fact-icon">⌖</span><div><strong>Ate, Lima, Perú</strong><small>Ubicación</small></div></div>
+          <div class="fact"><span class="fact-icon">▣</span><div><strong>Soporte técnico comercial</strong><small>Área de interés</small></div></div>
+          <div class="fact"><span class="fact-icon">◇</span><div><strong>Ingeniería Industrial</strong><small>En formación</small></div></div>
+        </aside>
+      </div>
     </div>
-  </header>
+  </section>
 
-  <main>
-    <!-- INICIO -->
-    <section id="inicio" class="hero">
-      <div class="hero-pattern" aria-hidden="true"></div>
-
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <div class="status-label">
-            <span class="status-dot"></span>
-            ELECTRÓNICA · AUTOMATIZACIÓN · INDUSTRIA
-          </div>
-
-          <p class="hero-kicker">Hola, soy</p>
-          <h1>Jorge Serrano <span>Hilario.</span></h1>
-
-          <h2>Electrónica y Automatización Industrial</h2>
-
-          <p class="hero-description">
-            Profesional técnico con experiencia en instrumentación industrial,
-            soporte técnico comercial y gestión de información para los sectores
-            industrial y minero. Actualmente estudio Ingeniería Industrial para
-            complementar mi formación técnica con una visión integral de los
-            procesos y negocios.
-          </p>
-
-          <div class="hero-buttons">
-            <a class="button button-primary" href="#experiencia">
-              Conoce mi experiencia <span>↘</span>
-            </a>
-            <a class="button button-outline" href="#contacto">
-              Contactarme <span>↗</span>
-            </a>
-          </div>
-
-          <div class="hero-highlights">
-            <div>
-              <strong>Instrumentación</strong>
-              <span>Medición industrial</span>
-            </div>
-            <div>
-              <strong>Automatización</strong>
-              <span>Soluciones técnicas</span>
-            </div>
-            <div>
-              <strong>Ingeniería</strong>
-              <span>Mejora de procesos</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-visual">
-          <div class="photo-frame">
-            <div class="photo-topline">
-              <span>PERFIL PROFESIONAL</span>
-              <span class="photo-indicator">●</span>
-            </div>
-
-            <img
-              class="profile-photo"
-              src="MIFOTO.jpg"
-              alt="Fotografía personal de Jorge Serrano Hilario"
-            >
-
-            <div class="photo-caption">
-              <span class="caption-icon">JS</span>
-              <div>
-                <strong>Jorge Serrano Hilario</strong>
-                <span>Electrónica y Automatización Industrial</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="floating-tag tag-top">
-            <span class="tag-symbol">⌁</span>
-            <span>Instrumentación<br><strong>Industrial</strong></span>
-          </div>
-
-          <div class="floating-tag tag-bottom">
-            <span class="tag-symbol">↗</span>
-            <span>Enfoque en<br><strong>mejora continua</strong></span>
-          </div>
-        </div>
+  <section id="sobre-mi" class="about-section section">
+    <div class="container about-layout">
+      <div class="about-copy">
+        <div class="section-title"><span class="section-number">01</span><h2>Sobre mí</h2></div>
+        <p>Mi experiencia combina el conocimiento de instrumentación y automatización industrial con actividades de soporte técnico comercial, preparación de información para campañas y coordinación de procesos comerciales.</p>
+        <p>Mi formación en Ingeniería Industrial complementa esta experiencia y fortalece mi interés por la mejora de procesos, la organización del trabajo y el uso de herramientas tecnológicas.</p>
       </div>
-
-      <div class="hero-bottom-line">
-        <div class="container">
-          <span>TECNOLOGÍA</span><i></i>
-          <span>MEDICIÓN</span><i></i>
-          <span>PROCESOS</span><i></i>
-          <span>INNOVACIÓN</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- SOBRE MÍ -->
-    <section id="sobre-mi" class="section section-light">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <span class="section-eyebrow">01 / PERFIL</span>
-            <h2>Sobre <span>mí</span></h2>
-          </div>
-          <p>
-            Una formación que conecta la tecnología, la operación industrial
-            y la gestión de negocios.
-          </p>
-        </div>
-
-        <div class="about-grid">
-          <article class="about-main-card">
-            <div class="card-symbol">✳</div>
-            <h3>Perfil técnico con visión de negocio</h3>
-            <p>
-              Mi experiencia combina el conocimiento de instrumentación y
-              automatización industrial con actividades de soporte técnico
-              comercial, preparación de información para campañas y coordinación
-              de procesos comerciales.
-            </p>
-            <p>
-              Mi formación en Ingeniería Industrial complementa esta experiencia
-              y fortalece mi interés por la mejora de procesos, la organización
-              del trabajo y el uso de herramientas tecnológicas.
-            </p>
-          </article>
-
-          <div class="about-side">
-            <article class="info-card">
-              <span class="info-number">01</span>
-              <div>
-                <h3>Área técnica</h3>
-                <p>Instrumentación, medición y automatización industrial.</p>
-              </div>
-            </article>
-            <article class="info-card">
-              <span class="info-number">02</span>
-              <div>
-                <h3>Área comercial</h3>
-                <p>Soporte técnico, información de productos y cotizaciones.</p>
-              </div>
-            </article>
-            <article class="info-card">
-              <span class="info-number">03</span>
-              <div>
-                <h3>Área de gestión</h3>
-                <p>Organización de información y apoyo a procesos comerciales.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCIA -->
-    <section id="experiencia" class="section section-tinted">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <span class="section-eyebrow">02 / TRAYECTORIA</span>
-            <h2>Experiencia <span>profesional</span></h2>
-          </div>
-          <p>
-            Experiencia en soporte comercial, instrumentación industrial,
-            atención técnica y mantenimiento electrónico.
-          </p>
-        </div>
-
-        <div class="experience-list">
-          <article class="experience-card">
-            <div class="experience-date">
-              <span>ENE. 2026</span>
-              <span class="date-line"></span>
-              <span>ACTUALIDAD</span>
-            </div>
-            <div class="experience-content">
-              <div class="experience-top">
-                <div>
-                  <span class="experience-type">01 · SOPORTE COMERCIAL</span>
-                  <h3>Technical Sales Support</h3>
-                  <div class="company-brand"><img src="verne.png" alt="Logo de VERNE PERÚ" class="company-logo"><p class="company">VERNE PERÚ S.A.C.</p></div>
-                </div>
-                <span class="experience-icon">↗</span>
-              </div>
-              <ul>
-                <li>Preparación de materiales para campañas comerciales, como presentaciones, fichas técnicas y documentos PDF.</li>
-                <li>Gestión de información de equipos instalados de Emerson en unidades mineras.</li>
-                <li>Organización de información técnica y comercial para apoyar las actividades del equipo de ventas.</li>
-                <li>Seguimiento de oportunidades comerciales y coordinación de actividades relacionadas con campañas y visitas.</li>
-              </ul>
-              <div class="tag-list">
-                <span>Campañas</span>
-                <span>Información técnica</span>
-                <span>Soporte comercial</span>
-                <span>Seguimiento</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="experience-card">
-            <div class="experience-date">
-              <span>JUN. 2025</span>
-              <span class="date-line"></span>
-              <span>DIC. 2025</span>
-            </div>
-            <div class="experience-content">
-              <div class="experience-top">
-                <div>
-                  <span class="experience-type">02 · VENTAS INTERNAS</span>
-                  <h3>Inside Sales</h3>
-                  <div class="company-brand"><img src="verne.png" alt="Logo de VERNE PERÚ" class="company-logo"><p class="company">VERNE PERÚ S.A.C.</p></div>
-                </div>
-                <span class="experience-icon">▤</span>
-              </div>
-              <ul>
-                <li>Apoyo en cotizaciones de instrumentación industrial, especialmente caudalímetros FLEXIM y equipos Emerson.</li>
-                <li>Atención y soporte comercial para clientes de los sectores minero e industrial.</li>
-                <li>Apoyo en la gestión de órdenes de compra, stock e inventario.</li>
-              </ul>
-              <div class="tag-list">
-                <span>Cotizaciones</span>
-                <span>Instrumentación</span>
-                <span>Atención al cliente</span>
-                <span>Inventario</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="experience-card">
-            <div class="experience-date">
-              <span>MAY. 2024</span>
-              <span class="date-line"></span>
-              <span>MAY. 2025</span>
-            </div>
-            <div class="experience-content">
-              <div class="experience-top">
-                <div>
-                  <span class="experience-type">03 · ASESORÍA TÉCNICA</span>
-                  <h3>Asesor técnico comercial</h3>
-                  <div class="company-brand"><img src="tectronica.png" alt="Logo de TECTRONICA" class="company-logo"><p class="company">TECTRONICA S.A.C.</p></div>
-                </div>
-                <span class="experience-icon">⌘</span>
-              </div>
-              <ul>
-                <li>Visitas técnicas a plantas y demostraciones de equipos industriales.</li>
-                <li>Asesoría en selección de instrumentos de presión, nivel, caudal y temperatura.</li>
-                <li>Selección, montaje, configuración y mantenimiento de sistemas neumáticos.</li>
-                <li>Elaboración de cotizaciones y apoyo en el control de inventario.</li>
-              </ul>
-              <div class="tag-list">
-                <span>Visitas técnicas</span>
-                <span>Selección de equipos</span>
-                <span>Neumática</span>
-                <span>Mantenimiento</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="experience-card">
-            <div class="experience-date">
-              <span>SEP. 2022</span>
-              <span class="date-line"></span>
-              <span>OCT. 2022</span>
-            </div>
-            <div class="experience-content">
-              <div class="experience-top">
-                <div>
-                  <span class="experience-type">04 · MANTENIMIENTO</span>
-                  <h3>Técnico en Mantenimiento</h3>
-                  <div class="company-brand"><img src="kuresa.png" alt="Logo de KURESA" class="company-logo"><p class="company">KURESA S.A.</p></div>
-                </div>
-                <span class="experience-icon">⚙</span>
-              </div>
-              <ul>
-                <li>Diseño y ensamblaje de tarjetas electrónicas para secadores de manos.</li>
-                <li>Reparación, limpieza y mantenimiento de equipos y tarjetas electrónicas.</li>
-                <li>Uso de EAGLE para el trabajo con tarjetas electrónicas.</li>
-                <li>Reemplazo de baterías de UPS y atención de pulsadores de emergencia.</li>
-              </ul>
-              <div class="tag-list">
-                <span>Electrónica</span>
-                <span>EAGLE</span>
-                <span>Reparación</span>
-                <span>Mantenimiento</span>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDUCACIÓN -->
-    <section id="educacion" class="section section-light">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <span class="section-eyebrow">03 / FORMACIÓN</span>
-            <h2>Educación <span>académica</span></h2>
-          </div>
-          <p>
-            Formación técnica en electrónica y automatización, complementada
-            con estudios universitarios de Ingeniería Industrial.
-          </p>
-        </div>
-
-        <div class="education-grid">
-          <article class="education-card education-featured">
-            <div class="education-topline">
-              <span class="education-icon">01</span>
-              <span class="education-status">EN CURSO</span>
-            </div>
-            <span class="education-label">FORMACIÓN UNIVERSITARIA</span>
-            <h3>Ingeniería Industrial</h3>
-            <p class="education-institution">Universidad Privada del Norte</p>
-            <p class="education-description">
-              Estudios universitarios con convalidación de estudios técnicos,
-              iniciados en 2025.
-            </p>
-            <div class="education-footer">2025 – Actualidad</div>
-          </article>
-
-          <article class="education-card">
-            <div class="education-topline">
-              <span class="education-icon">02</span>
-              <span class="education-status completed">COMPLETADO</span>
-            </div>
-            <span class="education-label">FORMACIÓN TÉCNICA</span>
-            <h3>Electrónica y Automatización Industrial</h3>
-            <p class="education-institution">TECSUP</p>
-            <p class="education-description">
-              Formación técnica profesional con reconocimiento de quinto
-              ponderado y desarrollo de un proyecto de mejora de una
-              enrolladora de papel.
-            </p>
-            <div class="education-footer">2020 – 2023</div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- HABILIDADES -->
-    <section id="habilidades" class="section section-dark">
-      <div class="container">
-        <div class="section-heading heading-light">
-          <div>
-            <span class="section-eyebrow">04 / COMPETENCIAS</span>
-            <h2>Habilidades <span>técnicas</span></h2>
-          </div>
-          <p>
-            Herramientas y conocimientos relacionados con la formación
-            técnica y la experiencia profesional.
-          </p>
-        </div>
-
-        <div class="skills-grid">
-          <article class="skill-card">
-            <div class="skill-icon">⌁</div>
-            <h3>Instrumentación industrial</h3>
-            <p>Conocimientos de instrumentos para medir presión, nivel, caudal y temperatura.</p>
-            <div class="skill-bottom"><span>01</span><span>INSTRUMENTACIÓN</span></div>
-          </article>
-
-          <article class="skill-card">
-            <div class="skill-icon">⚙</div>
-            <h3>Automatización y PLC</h3>
-            <p>Conocimientos de programación de PLC y automatización industrial.</p>
-            <div class="skill-bottom"><span>02</span><span>AUTOMATIZACIÓN</span></div>
-          </article>
-
-          <article class="skill-card">
-            <div class="skill-icon">⌗</div>
-            <h3>Diseño técnico</h3>
-            <p>Manejo de AutoCAD y EAGLE en actividades relacionadas con diseño técnico y electrónica.</p>
-            <div class="skill-bottom"><span>03</span><span>DISEÑO</span></div>
-          </article>
-
-          <article class="skill-card">
-            <div class="skill-icon">▦</div>
-            <h3>Herramientas de oficina</h3>
-            <p>Uso de herramientas de Microsoft Office para organizar información y preparar documentos.</p>
-            <div class="skill-bottom"><span>04</span><span>PRODUCTIVIDAD</span></div>
-          </article>
-
-          <article class="skill-card">
-            <div class="skill-icon">↗</div>
-            <h3>Soporte técnico comercial</h3>
-            <p>Apoyo en cotizaciones, documentación técnica y atención de requerimientos comerciales.</p>
-            <div class="skill-bottom"><span>05</span><span>GESTIÓN COMERCIAL</span></div>
-          </article>
-
-          <article class="skill-card">
-            <div class="skill-icon">◎</div>
-            <h3>Mantenimiento electrónico</h3>
-            <p>Experiencia en revisión, reparación y ensamblaje de tarjetas y equipos electrónicos.</p>
-            <div class="skill-bottom"><span>06</span><span>MANTENIMIENTO</span></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROYECTOS -->
-    <section id="proyectos" class="section section-tinted">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <span class="section-eyebrow">05 / APLICACIÓN TÉCNICA</span>
-            <h2>Proyectos y <span>experiencia aplicada</span></h2>
-          </div>
-          <p>
-            Actividades técnicas y trabajos formativos relacionados con
-            electrónica, mantenimiento y procesos industriales.
-          </p>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card project-large">
-            <div class="project-visual project-visual-blue project-visual-text">
-              <span class="project-number">PROYECTO 01</span>
-              <span class="project-category">TECSUP · FORMACIÓN TÉCNICA</span>
-            </div>
-            <div class="project-body">
-              <span class="project-label">PROYECTO ACADÉMICO</span>
-              <h3>Mejora de una enrolladora de papel</h3>
-              <p>
-                Proyecto desarrollado durante la formación técnica, enfocado
-                en la mejora de un equipo utilizado en un proceso industrial.
-              </p>
-              <div class="tag-list">
-                <span>Mejora de equipos</span>
-                <span>Procesos industriales</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-visual project-visual-teal">
-              <span class="project-number">PROYECTO 02</span>
-              <div class="circuit-graphic" aria-hidden="true">
-                <span class="circuit-line"></span>
-                <span class="circuit-chip">PCB</span>
-                <span class="circuit-node node-one"></span>
-                <span class="circuit-node node-two"></span>
-                <span class="circuit-node node-three"></span>
-              </div>
-              <span class="project-category">KURESA · MANTENIMIENTO</span>
-            </div>
-            <div class="project-body">
-              <span class="project-label">EXPERIENCIA TÉCNICA</span>
-              <h3>Tarjetas electrónicas</h3>
-              <p>
-                Diseño, ensamblaje y reparación de tarjetas electrónicas para
-                secadores de manos, con uso de EAGLE.
-              </p>
-              <div class="tag-list">
-                <span>Electrónica</span>
-                <span>EAGLE</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-visual project-visual-orange">
-              <span class="project-number">PROYECTO 03</span>
-              <div class="instrument-graphic" aria-hidden="true">
-                <div class="instrument-dial"><span></span></div>
-                <div class="instrument-stem"></div>
-                <div class="instrument-base"></div>
-              </div>
-              <span class="project-category">INSTRUMENTACIÓN INDUSTRIAL</span>
-            </div>
-            <div class="project-body">
-              <span class="project-label">APLICACIÓN TÉCNICA</span>
-              <h3>Selección de instrumentación</h3>
-              <p>
-                Experiencia en asesoría para seleccionar instrumentos de
-                medición industrial de acuerdo con los requerimientos del cliente.
-              </p>
-              <div class="tag-list">
-                <span>Presión</span>
-                <span>Nivel</span>
-                <span>Caudal</span>
-                <span>Temperatura</span>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <p class="projects-note">
-          Los proyectos y actividades descritos corresponden a experiencias
-          académicas o laborales; no representan productos comerciales propios.
-        </p>
-      </div>
-    </section>
-
-    <!-- CONTACTO -->
-    <section id="contacto" class="section contact-section">
-      <div class="container">
-        <div class="contact-panel">
-          <div class="contact-content">
-            <span class="section-eyebrow">06 / CONTACTO</span>
-            <h2>¿Conversamos sobre una oportunidad <span>profesional?</span></h2>
-            <p>
-              Estoy interesado en seguir desarrollándome en áreas vinculadas
-              con la instrumentación industrial, la automatización, el soporte
-              técnico comercial y la mejora de procesos.
-            </p>
-
-            <div class="contact-actions">
-              <a class="button button-primary" href="mailto:serranohilario@gmail.com">
-                Enviarme un correo ↗
-              </a>
-              <a class="button button-light-outline"
-                 href="https://www.linkedin.com/in/serrano-jorge"
-                 target="_blank" rel="noopener noreferrer">
-                Ver LinkedIn ↗
-              </a>
-            </div>
-          </div>
-
-          <div class="contact-details">
-            <div class="contact-detail">
-              <span class="detail-icon">✉</span>
-              <div>
-                <span>Correo electrónico</span>
-                <a href="mailto:serranohilario@gmail.com">serranohilario@gmail.com</a>
-              </div>
-            </div>
-            <div class="contact-detail">
-              <span class="detail-icon">☎</span>
-              <div>
-                <span>Teléfono</span>
-                <a href="tel:+51938548515">938 548 515</a>
-              </div>
-            </div>
-            <div class="contact-detail">
-              <span class="detail-icon">⌖</span>
-              <div>
-                <span>Ubicación</span>
-                <strong>Ate, Lima, Perú</strong>
-              </div>
-            </div>
-            <div class="contact-detail">
-              <span class="detail-icon">in</span>
-              <div>
-                <span>LinkedIn</span>
-                <a href="https://www.linkedin.com/in/serrano-jorge"
-                   target="_blank" rel="noopener noreferrer">Perfil profesional</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-content">
-      <a class="brand footer-brand" href="#inicio">
-        <span class="brand-mark">JS</span>
-        <span class="brand-text">JORGE SERRANO<small>PORTAFOLIO PROFESIONAL</small></span>
-      </a>
-      <p>Electrónica · Automatización · Ingeniería Industrial</p>
-      <a href="#inicio" class="back-to-top">Volver arriba ↑</a>
+      <div class="about-image-wrap"><img src="planta-industrial.jpg" alt="Instalación industrial de procesos" class="about-image" onerror="this.parentElement.classList.add('image-unavailable');this.style.display='none'"><div class="image-placeholder"><span>INDUSTRIA</span><strong>Procesos · Instrumentación · Automatización</strong></div></div>
+      <div class="service-card"><span class="service-icon blue">⚒</span><h3>Área técnica</h3><p>Instrumentación, medición y automatización industrial.</p></div>
+      <div class="service-card"><span class="service-icon orange">♧</span><h3>Área comercial</h3><p>Soporte técnico, información de productos y cotizaciones.</p></div>
+      <div class="service-card"><span class="service-icon green">▥</span><h3>Área de gestión</h3><p>Organización de información y apoyo a procesos comerciales.</p></div>
     </div>
-    <div class="container footer-bottom">
-      <span>© 2026 Jorge Serrano Hilario</span>
-      <span>Diseñado como portafolio profesional</span>
+  </section>
+
+  <section id="experiencia" class="experience-section section">
+    <div class="container">
+      <div class="section-title section-title-wide"><span class="section-number">02</span><h2>Experiencia profesional</h2><a href="#contacto" class="section-link">Conversemos <span>→</span></a></div>
+      <div class="experience-grid">
+        <article class="experience-card"><div class="timeline-dot"></div><div class="experience-meta">ENE. 2026 – ACTUALIDAD</div><div class="company-row"><span>VERNE PERÚ S.A.C.</span><img src="verne.png" alt="Logo de VERNE" class="company-logo verne-logo"></div><h3>Technical Sales Support</h3><ul><li>Preparación de materiales para campañas.</li><li>Gestión de información de equipos instalados.</li><li>Seguimiento de oportunidades comerciales.</li></ul></article>
+        <article class="experience-card"><div class="timeline-dot"></div><div class="experience-meta">JUN. 2025 – DIC. 2025</div><div class="company-row"><span>VERNE PERÚ S.A.C.</span><img src="verne.png" alt="Logo de VERNE" class="company-logo verne-logo"></div><h3>Inside Sales</h3><ul><li>Apoyo en cotizaciones de instrumentación.</li><li>Atención a clientes mineros e industriales.</li><li>Gestión de órdenes, stock e inventario.</li></ul></article>
+        <article class="experience-card"><div class="timeline-dot"></div><div class="experience-meta">MAY. 2024 – MAY. 2025</div><div class="company-row"><span>TECTRONICA S.A.C.</span><img src="tectronica.png" alt="Logo de TECTRONICA" class="company-logo tectronica-logo"></div><h3>Asesor técnico comercial</h3><ul><li>Visitas técnicas a plantas.</li><li>Selección de instrumentos industriales.</li><li>Configuración y mantenimiento.</li></ul></article>
+        <article class="experience-card"><div class="timeline-dot"></div><div class="experience-meta">SEP. 2022 – OCT. 2022</div><div class="company-row"><span>KURESA S.A.</span><img src="kuresa.png" alt="Logo de KURESA" class="company-logo kuresa-logo"></div><h3>Técnico en Mantenimiento</h3><ul><li>Diseño y ensamblaje de tarjetas electrónicas.</li><li>Reparación y mantenimiento de equipos.</li><li>Uso de EAGLE.</li></ul></article>
+      </div>
     </div>
-  </footer>
+  </section>
+
+  <section class="bottom-section section">
+    <div class="container bottom-grid">
+      <section id="educacion" class="bottom-column"><div class="section-title"><span class="section-number">03</span><h2>Educación</h2></div>
+        <article class="education-row"><span class="education-icon blue">◇</span><div><h3>Ingeniería Industrial</h3><p>Universidad Privada del Norte</p><small>2025 – Actualidad</small></div><span class="status ongoing">En curso</span></article>
+        <article class="education-row"><span class="education-icon orange">▤</span><div><h3>Electrónica y Automatización Industrial</h3><p>TECSUP</p><small>2020 – 2023</small></div><span class="status done">Completado</span></article>
+      </section>
+      <section id="habilidades" class="bottom-column"><div class="section-title"><span class="section-number">04</span><h2>Habilidades técnicas</h2></div>
+        <div class="skills-mini-grid"><div><span class="mini-icon">▦</span><p>Instrumentación industrial</p></div><div><span class="mini-icon">⚙</span><p>Automatización y PLC</p></div><div><span class="mini-icon">▥</span><p>Diseño técnico (AutoCAD, EAGLE)</p></div><div><span class="mini-icon">▣</span><p>Herramientas de oficina</p></div><div><span class="mini-icon">↗</span><p>Soporte técnico comercial</p></div><div><span class="mini-icon">⚒</span><p>Mantenimiento electrónico</p></div></div>
+      </section>
+      <section id="proyectos" class="bottom-column projects-column"><div class="section-title"><span class="section-number">05</span><h2>Proyectos destacados</h2></div>
+        <article class="project-card"><div class="project-blank"><span>PROYECTO ACADÉMICO</span><strong>TECSUP</strong></div><div class="project-copy"><h3>Mejora de una enrolladora de papel</h3><span class="project-pill">Proyecto académico · TECSUP</span><p>Proyecto desarrollado durante la formación técnica, enfocado en la mejora de un equipo industrial.</p><div class="project-tags"><span>Mejora de equipos</span><span>Procesos industriales</span></div></div></article>
+        <p class="project-note">También cuento con experiencia en tarjetas electrónicas y selección de instrumentación industrial.</p>
+      </section>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact-section section"><div class="container contact-inner"><div><span class="eyebrow">CONTACTO</span><h2>Conversemos sobre una oportunidad profesional</h2><p>Interés en instrumentación industrial, automatización, soporte técnico comercial y mejora de procesos.</p></div><div class="contact-actions"><a class="button button-primary" href="mailto:serranohilario@gmail.com">Enviar correo →</a><a class="button button-outline" href="https://www.linkedin.com/in/serrano-jorge" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><p>938 548 515 · Ate, Lima, Perú</p></div></div></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span>JS · JORGE SERRANO HILARIO</span><span>Electrónica · Automatización · Ingeniería Industrial</span><a href="#inicio">Volver arriba ↑</a></div></footer>
 </body>
 </html>
